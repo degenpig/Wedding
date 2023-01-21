@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[dir="rtl"] .form-select {
+    background-position: left 0.5rem center;
+}
+
+/* For those who use it direct */
+
+[dir="rtl"] select {
+    background-position: left 0.5rem center;
+}
+
+.my-tel-input .vti__dropdown-list {
+    left: auto !important;
+    right: 0 !important;
+    text-align:right;
+}
+
+.statistics-icon svg {
+    margin:0 auto;
+    padding:2px;
+}
